@@ -1,0 +1,14 @@
+# Cria o .gitignore com conteúdo correto
+@"
+node_modules/
+para-processar/
+fotos-organizadas/
+organized-photos/
+to-process/
+temp_*
+*.zip
+*.log
+.env
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
