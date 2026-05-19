@@ -1,6 +1,8 @@
 # WhatsApp Media Organizer
 
-Ferramenta automatizada para organizar mídias exportadas do WhatsApp em pastas, baseado nas legendas ou números de protocolo enviados com as fotos.
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black) ![Licença](https://img.shields.io/badge/licença-MIT-green)
+
+Ferramenta automatizada para organizar mídias exportadas do WhatsApp em pastas, com base nas legendas ou números de protocolo enviados com as fotos.
 
 ## Funcionalidades
 
@@ -12,8 +14,16 @@ Ferramenta automatizada para organizar mídias exportadas do WhatsApp em pastas,
 
 ## Requisitos
 
-- Node.js
-- `adm-zip` (`npm install adm-zip`)
+- Node.js 18+
+- `adm-zip` (instalado via `npm install`)
+
+## Instalação
+
+```bash
+git clone https://github.com/ooshimakenji/WhatsApp-Media-Organizer.git
+cd WhatsApp-Media-Organizer
+npm install
+```
 
 ## Uso
 
@@ -21,14 +31,14 @@ Ferramenta automatizada para organizar mídias exportadas do WhatsApp em pastas,
 2. Execute:
 
 ```bash
-node ornganizer.js
+node organizer.js
 ```
 
 3. Os arquivos organizados estarão em `./organized-photos`
 
 ## Configuração
 
-No início do arquivo `ornganizer.js`:
+No início do arquivo `organizer.js`:
 
 ```js
 const INPUT_FOLDER = './to-process';
