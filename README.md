@@ -2,7 +2,7 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black) ![Licença](https://img.shields.io/badge/licença-MIT-green)
 
-Ferramenta automatizada para organizar mídias exportadas do WhatsApp em pastas, com base nas legendas ou números de protocolo enviados com as fotos.
+Ferramenta para organizar automaticamente as mídias exportadas do WhatsApp em pastas separadas, agrupando os arquivos pelas legendas ou números de protocolo enviados junto às fotos.
 
 ## Funcionalidades
 
